@@ -14,7 +14,7 @@ pipeline{
     }
     stage ('build') {
       steps{
-        bat 'ng build'
+        bat 'npm run ng -- build'
       }
     }
   }
