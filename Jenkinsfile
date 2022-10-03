@@ -14,7 +14,7 @@ pipeline{
     }
     stage ('build') {
       steps{
-        bat 'ng build --prod --build-optimizer'
+        bat 'ng build'
       }
     }
   }
