@@ -9,12 +9,11 @@ pipeline{
     stage ('install modules'){
       steps{
         bat 'npm install --verbose -d' 
-        bat  'npm install --save classlist.js'
       }
     }
     stage ('build') {
       steps{
-        bat 'npm run ng -- build'
+        bat 'ng build'
       }
     }
   }
