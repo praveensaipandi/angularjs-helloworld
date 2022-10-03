@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "classlist.js": "^1.1.20150312"
+  }
+}
