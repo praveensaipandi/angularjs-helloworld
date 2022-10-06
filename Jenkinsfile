@@ -8,13 +8,13 @@ pipeline{
      }
     stage ('install modules'){
       steps{
-        cd C:\ProgramData\Jenkins\.jenkins\workspace\test
+        cd 'C:\ProgramData\Jenkins\.jenkins\workspace\test'
         bat 'npm install --verbose -d' 
       }
     }
     stage ('build') {
       steps{
-        cd C:\ProgramData\Jenkins\.jenkins\workspace\test
+        cd 'C:\ProgramData\Jenkins\.jenkins\workspace\test'
         bat 'ng build'
       }
     }
